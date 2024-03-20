@@ -87,9 +87,6 @@ static int kyber_kem_enc_derand(uint8_t *ct,
     /* Multitarget countermeasure for coins + contributory KEM */
     hash_h(buf + KYBER_SYMBYTES, pk, KYBER_PUBLICKEYBYTES);
 
-    // X-WING !!!
-    // hash_h(buf + KYBER_SYMBYTES, pk, XWING_PUBLICKEYBYTES);
-
     hash_g(kr, buf, 2 * KYBER_SYMBYTES);
 
     /* coins are in kr+KYBER_SYMBYTES */
