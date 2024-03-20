@@ -18,7 +18,7 @@
 * Name:        crypto_kem_keypair
 *
 * Description: Generates public and private key
-*              for CCA-secure Kyber key encapsulation mechanism
+*              for X-Wing key encapsulation mechanism
 *
 * Arguments:   - unsigned char *pk: pointer to output public key (an already allocated array of CRYPTO_PUBLICKEYBYTES bytes)
 *              - unsigned char *sk: pointer to output private key (an already allocated array of CRYPTO_SECRETKEYBYTES bytes)
